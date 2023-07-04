@@ -1,0 +1,27 @@
+/* Reset some basic elements */
+html, body, #__next {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Set global styles */
+body {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Add your own global styles as needed */
